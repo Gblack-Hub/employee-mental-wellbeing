@@ -1,5 +1,7 @@
 # Employee Mental Well-being & Work Arrangement Analysis
 
+[Dashboard Image](https://github.com/Gblack-Hub/employee-mental-wellbeing/blob/main/dashboard.png)
+
 ## Project Overview
 The modern work environment has rapidly evolved, with remote and hybrid models becoming standard. This analysis investigates how work arrangements influence employee mental well-being, stress levels, and social isolation. 
 
