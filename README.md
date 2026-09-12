@@ -11,9 +11,11 @@ This project leverages Power BI to conduct Exploratory Data Analysis (EDA) on a 
 
 ## Analysis Process
 1. **Data Cleaning & Preparation:** Confirmed that there were no missing values, checked for standardized categorical variables (e.g., Work Location, Reported Conditions) to ensure accurate aggregation.
-2. **Metric Definition (DAX):** Created KPIs to establish a baseline: *Mental Health Condition Rate*, *High Stress Rate*, *Average Social Isolation Score*, and *Remote Work Satisfaction Rate*.
-3. **Exploratory Data Analysis (EDA):** Analyzed the correlation between independent variables (Work Location, Isolation, Work-Life Balance) and the dependent variable (Mental Health Condition Rate).
-4. **Dashboard Architecture:** Designed a single-page dashboard utilizing a Z-pattern reading flow and applied data visualization best practices.
+2. **Data Normalisation:** Created a Start schema containing a fact table (`employee_survey_fact`) and four dimension tables (`industry_dim`, `job_role_dim`, `mental_health_dim`, `work_location_dim`)
+3. **Column addition:** I create the `age_group` column in the fact table to make analysis by age group easier. 
+4. **Metric Definition (DAX):** Created KPIs to establish a baseline: *Mental Health Condition Rate*, *High Stress Rate*, *Average Social Isolation Score*, and *Remote Work Satisfaction Rate*.
+5. **Exploratory Data Analysis (EDA):** Analyzed the correlation between independent variables (Work Location, Isolation, Work-Life Balance) and the dependent variable (Mental Health Condition Rate).
+6. **Dashboard Architecture:** Designed a single-page dashboard utilizing a Z-pattern reading flow and applied data visualization best practices.
 
 ## Key Findings
 The data revealed highly counterintuitive insights regarding the modern workplace:
