@@ -36,6 +36,7 @@ Based on the lack of statistical variance across work arrangements, HR leadershi
 * **Investigate Role-Specific Drivers:** With the high stress baseline established at 33.7%, future data collection should focus on specific job roles, departments, and tenure to identify micro-cultures where burnout is originating.
 
 ## Repository Contents
+* `Employee Mental Well-Being...png`: A PowerPoint presentation and walkthrough of the dashboard.
 * `dashboard.png`: An image of the completed dashboard.
 * `README.md`: Project documentation and analysis summary.
 
